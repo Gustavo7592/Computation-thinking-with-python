@@ -35,3 +35,20 @@ if numero %2 == 0:
     print("Seu numero é par:")
 else:
     print("Numero é impar:")
+
+# Exercicio 5
+
+numero1 = float(input("Digite um numero para calcular"))
+sinal = str(input("digite o sinal"))
+numero2 = float(input("Digite outro numero para calcular"))
+
+
+if sinal == "+":
+    resultado = numero1 + numero2
+elif sinal == "*":
+    resultado = numero1 * numero2
+elif sinal == "/":
+     resultado = numero1 / numero2
+elif sinal == "-":
+    resultado = numero1 - numero2
+print(resultado)
