@@ -60,7 +60,7 @@
 # media = soma_quadrados / 4
 # print(media)
 
-# Ex. 10
+# Ex. 10 
 # quantidade = int(input("Digite um numero"))
 # soma = 0
 
