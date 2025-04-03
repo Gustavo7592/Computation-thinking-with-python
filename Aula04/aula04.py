@@ -86,3 +86,8 @@
 # for tabuada in range(1, 10):
 #     resultado = numero * tabuada
 #     print(resultado)
+
+# Exercicio - 4 Crie uma estrutura para solicitar uma quantidade de valores de temperatura em fahrenheit e transforme em temperatura em graus celsius.
+# temp_celsius = 5/9 * (temp_fahrenheit - 32)
+
+temp_fahrenheit = int(input("Digite a temperatura em fahreinheit"))
