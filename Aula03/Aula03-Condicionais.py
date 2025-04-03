@@ -71,12 +71,12 @@ elif (diaMes >= 5 or diaMes <= 10) and (diaSemana == "sabado" or diaSemana == "d
 
 # Exercicio - 7 crie um algoritmo para solicitar nome de usuario e senha. No entanto, pense em cono solicitar a senha apenas se o usuario estiver correto. Caso esteja correto, solicite senha. Caso esteja correto, deixe o usuario acessar o sistema
 
-# usuario = str(input("Digite seu usuario"))
+usuario = str(input("Digite seu usuario"))
 
-# Usuario = "Gustavo"
+Usuario = "Gustavo"
 
-# if usuario == Usuario:
-#     senha = str(input("Usuario certo agora digite sua senha"))
-#     print("Senha Certa")
-# else:
-#     print("Usuario errado tente novamento")
+if usuario == Usuario:
+    senha = str(input("Usuario certo agora digite sua senha"))
+    print("Senha Certa")
+else:
+    print("Usuario errado tente novamente")

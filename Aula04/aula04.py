@@ -60,6 +60,48 @@
 # media = soma_quadrados / 4
 # print(media)
 
+# Ex. 10
+# quantidade = int(input("Digite um numero"))
+# soma = 0
+
+# for k in range (quantidade):
+#     numero = float(input(f"Digite um nimero {k+1}"))
+#     soma += numero
+#     print(soma)
+#     print(numero)
+
+# Ex. 11
+# lista1 = ['a','b','c']
+# lista2= ['ana', 'paulo','pedro']
+
+# for i in lista2:
+#     if i == 'paulo':
+#         print(i)
+#         break
+
+# Ex.12
+# palavra = 'banana'
+# alvo = 'a'
+# contador = 0
+
+# for letra in palavra:
+#     if letra == alvo:
+#         contador += 1
+
+# print(f"A letra {alvo} aparece {contador} vezes na palavra")
+
+# Ex.13
+
+# frase = input("Digite uma frase: ")
+# letra_alvo = input("Digite a letra alvo: ")
+# contador = 0
+
+# for k in frase:
+#     if k == letra_alvo:
+#         contador += 1
+# print(contador)
+
+
 #### EXERCICIOS #######
 
 # Exercicio - 1 Crie um algoritmo para elevar ao cubo apenas os valores de um range = (2, 12, 2).
@@ -90,4 +132,18 @@
 # Exercicio - 4 Crie uma estrutura para solicitar uma quantidade de valores de temperatura em fahrenheit e transforme em temperatura em graus celsius.
 # temp_celsius = 5/9 * (temp_fahrenheit - 32)
 
-temp_fahrenheit = int(input("Digite a temperatura em fahreinheit"))
+# quantidade_temp = int(input("Quantas temperaturas voce quer converter?: "))
+
+# for k in range(quantidade_temp):
+#     temp_fahrenheit = float(input("Digite a temperatura em fahreinheit: "))
+#     temp_celsius = 5/9 * (temp_fahrenheit - 32)
+#     print(f" A respectiva temperatura em graus celsius {temp_celsius:.2f}")
+    
+# Exercicio - 5 Crie um algoritmo que solicite 3 vezes o nome de usuario, senha. Em seguida,  crie uma estrutura para verificar se o usuario e a senha destes usuarios estao corretas
+
+for k in range(1):
+    usuario1 = input("Digite seu usuario: ")
+    if usuario1 == 'Fiap':
+      senha = input("Usuario Correto, Digite a senha: ")
+      
+      
