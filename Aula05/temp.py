@@ -163,11 +163,11 @@
 # while indice < len(lista_frutas):
 #     print(lista_frutas[indice])
 #     indice += 1    
-#######################
+    
+
 # numeros = []
 
-# while lens(numeros) < 5:
+# while len(numeros) < 5:
 #     numero = int(input("Digite um numero: "))
 #     numeros.append(numero)
 # print(numeros)
-
