@@ -138,11 +138,12 @@
 # EX - 4 Criar um programa que soma todos os numeros digitados ate que o usuario digite o 0
 
 # numero = int(input("Digite um numero: "))
-
+# soma = 0
 # while numero != 0:
+#     soma += numero
+#     print(f"A soma é {soma}")
 #     numero = int(input("Digite um numero: "))
-#     if numero == 0:
-#         break
+# print(f"A soma final dos números foi {soma}")
 
 # EX - 5 Transformar temperatura fahrenheit para grau Celsius. Enquanto 
 # temperatura Fahrenheit for diferente de 0, tranforma em Celsis
