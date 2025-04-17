@@ -156,6 +156,12 @@
 #     C = 5/9 * (F - 32)
 #     print(C)
 
-    
+########################
+# lista_frutas = ['maca', 'banana', 'uva', 'laranja']
+# indice = 0
+
+# while indice < len(lista_frutas):
+#     print(lista_frutas[indice])
+#     indice += 1    
     
 
