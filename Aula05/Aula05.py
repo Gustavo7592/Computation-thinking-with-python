@@ -102,3 +102,59 @@
 # resultado = 6 * 4 = 24
 # resultado = 24 * 5 = 120
 
+# Ex.7
+# while True:
+#     numero = int(input("Digite um número positivo: "))
+#     if numero > 0:
+#         break
+#     print("Numero aceito", numero)
+
+# Exercicios
+
+# EX - 1 Contar de 10 a 1 e imprimir cada numero
+
+# contador = 10
+# while contador >= 1:
+#     print("Contagem", contador)
+#     contador -= 1
+
+# EX - 2  Criar um programa que aceita numeros entre 1 a 10
+# numero = int(input("Digite um numero entre 1 e 10: "))
+
+# while numero < 1 or numero > 10:
+#     print("Numero invalido!")
+#     numero = int(input("Digite um numro entre 1 e 10: "))
+# print("Numero aceito", numero)
+
+# EX - 3 Solicitar senhas até que o usuario digite a senha correta.
+
+# senha_correta = '1234'
+# senha = input("Digite a senha: ")
+# while senha != senha_correta:
+#     print("Senha incorreta!")
+#     senha = input("Digite a senha: ")
+# print("Senha correta!")
+
+# EX - 4 Criar um programa que soma todos os numeros digitados ate que o usuario digite o 0
+
+# numero = int(input("Digite um numero: "))
+
+# while numero != 0:
+#     numero = int(input("Digite um numero: "))
+#     if numero == 0:
+#         break
+
+# EX - 5 Transformar temperatura fahrenheit para grau Celsius. Enquanto 
+# temperatura Fahrenheit for diferente de 0, tranforma em Celsis
+# F = ()
+# while F != 0:
+#     F = float(input("Digite a temperatura em FAHRENHEIT: "))
+#     if F == 0:
+#         print("Nao posso tranformar")
+#         break
+#     C = 5/9 * (F - 32)
+#     print(C)
+
+    
+    
+
