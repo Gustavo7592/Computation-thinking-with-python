@@ -43,4 +43,4 @@
 
 # for folha in range(len(descontos)):
 #     print(f'O funcionario {lista_funcionarios[folha]} com salario de {lista_salario[folha]} terá o desconto de {descontos[folha]} e receberá o valor de {salario_liquidos[folha]}')
-
+#
