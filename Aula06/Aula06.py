@@ -119,6 +119,13 @@
 
 # Estruturas de repetição aninhada
 
-for i in tange(1,4):
-    for k in range(1,4):
-        print(f'{i}x{k} = {i*k}')
+# for i in range(1,4):
+#     for k in range(1,4):
+#         print(f'{i}x{k} = {i*k}')
+        
+# cores = ['vermelho', 'verde', 'azul']
+# frutas = ['maça', 'abacate', 'blueberry']
+
+# for cor in cores:
+#     for fruta in frutas:
+#         print(f'{cor} - {fruta}')
